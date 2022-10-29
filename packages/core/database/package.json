@@ -1,0 +1,36 @@
+{
+  "name": "@nocobase/database",
+  "version": "0.7.7-alpha.1",
+  "description": "",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "dependencies": {
+    "@nocobase/utils": "0.7.7-alpha.1",
+    "async-mutex": "^0.3.2",
+    "cron-parser": "4.4.0",
+    "deepmerge": "^4.2.2",
+    "flat": "^5.0.2",
+    "glob": "^7.1.6",
+    "mathjs": "^10.6.1",
+    "moment": "2.x",
+    "semver": "^7.3.7",
+    "sequelize": "^6.9.0",
+    "umzug": "^3.1.1"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nocobase/nocobase.git",
+    "directory": "packages/database"
+  },
+  "gitHead": "b17d1ecae5dd0b9d4e7170dcf9663bb225598990"
+}
